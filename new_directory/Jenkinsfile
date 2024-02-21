@@ -6,8 +6,8 @@ pipeline {
             steps {
                 script {
                     // Define the paths to your local Git repository and the remote GitHub repository.
-                    def localRepoPath = 'C:\\PoC1'
-                    def githubRepoURL = 'https://github.com/nikithajoyce23/PoC1.git'
+                    def localRepoPath = 'C:\\CICD'
+                    def githubRepoURL = ' https://github.com/nikithajoyce23/GitAutomation.git'
 
                     // Check if changes exist in the local Git repository.
                     def hasChanges = false
