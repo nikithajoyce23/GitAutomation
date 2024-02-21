@@ -20,7 +20,7 @@ pipeline {
                             echo 'Changes detected'
 
                             // Fetch changes from the local repository and push to GitHub.
-                            bat(script: 'git config --global --add safe.directory C:/PoC1')
+                            // bat(script: 'git config --global --add safe.directory C:/PoC1')
                             bat(script: 'git add .')
                             bat(script: 'git commit -m "Auto-commit: Changes detected"')
                             bat(script: 'git push origin main')  // Adjust 'main' to your branch name if needed
